@@ -24,8 +24,9 @@ func prepareResponse() []Car {
 	cars = append(cars, Car{ID: 1, Brand: "Porsche", Model: "911 Turbo S", Year: 2022})
 	cars = append(cars, Car{ID: 2, Brand: "Porsche", Model: "Cayman GT4", Year: 2023})
 	cars = append(cars, Car{ID: 3, Brand: "Porsche", Model: "Panamera Turbo S E-Hybrid", Year: 2022})
-	cars = append(cars, Car{ID: 4, Brand: "Porsche", Model: "718 Cayman", Year: 2022})
+	cars = append(cars, Car{ID: 4, Brand: "Porsche", Model: "Cayenne", Year: 2022})
 	cars = append(cars, Car{ID: 5, Brand: "Porsche", Model: "Macan GTS", Year: 2023})
+	cars = append(cars, Car{ID: 6, Brand: "Porsche", Model: "Boxster", Year: 2022})
 	
   
 	return cars
